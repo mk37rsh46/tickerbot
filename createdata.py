@@ -10,7 +10,7 @@ import os
 
 client = discord.Client()
 TOKEN = ''
-GUILD = ''
+GUILD = 'server_name'
 
 @client.event
 async def on_ready():
